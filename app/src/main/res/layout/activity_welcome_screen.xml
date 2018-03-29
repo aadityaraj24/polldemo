@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:orientation="vertical"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:weightSum="1"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="1">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="114dp"
+                android:background="@drawable/pollimage"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="50dp"
+                android:layout_weight="0.10">
+
+            </ImageView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/appname"
+                android:textColor="#FFA500"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="80dp"
+                android:text="Poll"/>
+        </LinearLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sign In to your account"
+            android:textColor="#000000"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="80dp"
+            android:textStyle="bold"
+            android:textSize="20dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/detail1"
+            android:layout_marginTop="25dp"
+            android:layout_marginLeft="20dp"
+            android:textColor="#000000"
+            android:text="Create your own poll"
+            android:textSize="15dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/detail2"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="20dp"
+            android:textColor="#000000"
+            android:text="Cast your vote to contribute in poll "
+            android:textSize="15dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="20dp"
+            android:id="@+id/detail3"
+            android:textColor="#000000"
+            android:text="View the poll result"
+            android:textSize="15dp"
+            />
+        <Button
+            android:onClick="main_login"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="SignIn"
+            android:layout_gravity="center"
+            android:layout_marginTop="70dp"
+            android:background="@drawable/textroundborder"
+            android:id="@+id/main_login"
+            android:layout_below="@+id/password"
+            android:layout_alignParentStart="true"
+            android:layout_alignEnd="@+id/password" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="25dp"
+            android:layout_marginLeft="25dp"
+            android:layout_gravity="center"
+            android:orientation="horizontal"
+            android:weightSum="1">
+
+
+            <TextView
+                android:onClick="main_register"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="New to Gradecal? "
+                android:layout_marginLeft="45dp"
+                android:textColor="#0080ff"
+                android:id="@+id/main_register"
+                android:layout_below="@+id/main_login"
+                android:layout_alignEnd="@+id/main_login"
+                android:layout_alignParentStart="true"
+                android:clickable="true" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="/ "/>
+
+            <TextView
+                android:onClick="main_forget"
+                android:layout_width="189dp"
+                android:layout_height="wrap_content"
+                android:text="Forgot password?"
+                android:id="@+id/main_forget"
+                android:textColor="#0080ff"
+                android:layout_below="@+id/main_register"
+                android:layout_alignEnd="@+id/main_register"
+                android:layout_alignParentStart="true"
+                android:layout_weight="0.90"
+                android:clickable="true" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

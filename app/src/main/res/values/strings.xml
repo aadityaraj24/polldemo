@@ -1,0 +1,52 @@
+<resources>
+    <string name="app_name">polldemo</string>
+    <string-array name="questions">
+        <item>What is your mother maiden name?</item>
+        <item>Which was your first school?</item>
+        <item>when was your father born?</item>
+    </string-array>
+    <string-array name="college">
+        <item>Techno India,Salt Lake</item>
+        <item>IEM</item>
+        <item>Heritage</item>
+        <item>Haldia</item>
+        <item>BP Poddar</item>
+    </string-array>
+    <string-array name="department">
+        <item>Computer Science</item>
+        <item>Information Technology</item>
+        <item>Mechanical</item>
+        <item>Electronics and communication</item>
+        <item>Food Technology</item>
+    </string-array>
+    <string-array name="year">
+        <item>Semester1</item>
+        <item>Semester2</item>
+        <item>Semester3</item>
+        <item>Semester4</item>
+        <item>Semester5</item>
+        <item>Semester6</item>
+        <item>Semester7</item>
+        <item>Semester8</item>
+    </string-array>
+    <string name="title_activity_login">Sign in</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="title_activity_main2">Main2Activity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+</resources>

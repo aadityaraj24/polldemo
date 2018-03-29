@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="2"
+    android:orientation="vertical" >
+
+    <LinearLayout android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="#3a3a3a">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:text="Cast Poll"
+            android:id="@+id/castpoll"
+            android:background="#27363d"
+            android:layout_weight="0.5"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:text="View Poll"
+            android:id="@+id/viewpoll"
+            android:background="#631313"
+            android:layout_weight="0.5"/>
+    </LinearLayout>
+
+    <LinearLayout android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="#3a3a3a">
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/createpoll"
+            android:background="#98857c"
+            android:text="Create Poll"/>
+    </LinearLayout>
+
+
+</LinearLayout>
